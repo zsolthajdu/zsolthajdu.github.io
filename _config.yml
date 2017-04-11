@@ -1,8 +1,21 @@
-title: Zsolthajdu.GitHub.io
-description: Simple webpage
-google_analytics: 
-show_downloads: true
-theme: jekyll-theme-minimal
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-gems:
-  - jekyll-mentions
+# Site settings
+title: Zsolt Hajdu
+email: z_hajdu@yahoo.com
+description: > # this means to ignore newlines until "baseurl:"
+ To provide some descriptions about changes/updates in my github repos. Possibly to collect 
+ and preserve other useful pieces of information that I come across during my adventures
+ in the wonderful world of Linux.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+linkedin_username: zsolt
+github_username:  zsolthajdu
+
+# Build settings
+markdown: kramdown

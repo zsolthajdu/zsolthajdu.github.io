@@ -42,7 +42,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 Plugin 'preservim/nerdtree'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'joshdick/onedark.vim'
 
@@ -72,6 +72,14 @@ set cindent number ruler laststatus=2 title hlsearch
 colorscheme onedark
 syntax on
 {% endhighlight %}
+
+### Plugins
+This config includes the Vundle plugin manager and the following plugins:  
+* [NERDTree](https://github.com/preservim/nerdtree) File system explorer
+* [Vim-fugitive](https://github.com/tpope/vim-fugitive) git plugin for Vim
+* [Ctrlp](https://github.com/ctrlpvim/ctrlp.vim) Fuzzy file/buffer finder for Vim
+* [Vim-poyglot](https://github.com/sheerun/vim-polyglot) Syntax highlighting for lots of additional languages.
+* [OneDark colortheme](https://github.com/sheerun/vim-polyglot) Popular colortheme
 
 ## Install plugins
 Launch vim and in it issue

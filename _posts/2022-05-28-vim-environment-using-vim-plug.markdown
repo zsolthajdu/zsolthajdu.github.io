@@ -21,6 +21,9 @@ https://github.com/joshdick/onedark.vim
 Adobe Source Code Pro  
 Used for GVim
 
+## Typescript language support plugin
+The COC Typescript server, which is also installed by the vim sample config below, requires Node version 12 or later to be installed on the system.
+
 ## Edit .vimrc
 Add this into ~/.vimrc
 
@@ -81,7 +84,7 @@ syntax on
 This config includes the Vundle plugin manager and the following plugins:  
 * [NERDTree](https://github.com/preservim/nerdtree) File system explorer
 * [Vim-fugitive](https://github.com/tpope/vim-fugitive) git plugin for Vim
-* [Ctrlp](https://github.com/ctrlpvim/ctrlp.vim) Fuzzy file/buffer finder for Vim
+* [FZF fuzzy file search](https://github.com/junegunn/fzf) Fuzzy file/buffer finder for Vim
 * [Vim-poyglot](https://github.com/sheerun/vim-polyglot) Syntax highlighting for lots of additional languages.
 * [OneDark colortheme](https://github.com/sheerun/vim-polyglot) Popular colortheme
 

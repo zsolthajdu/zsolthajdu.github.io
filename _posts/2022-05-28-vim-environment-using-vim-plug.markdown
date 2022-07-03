@@ -51,7 +51,7 @@ filetype plugin indent on    " required
 "
 " Brief help
 " :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PlugInstall      - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
@@ -90,5 +90,5 @@ This config includes the Vundle plugin manager and the following plugins:
 
 ## Install plugins
 Launch vim and in it issue
-    :PluginInstall
+    :PlugInstall
 command

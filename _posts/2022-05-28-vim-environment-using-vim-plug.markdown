@@ -34,14 +34,13 @@ call plug#begin()
 Plug 'junegunn/vim-easy-align'
 
 " The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
+" Keep Plugin commands between plug#begin/end.
 " plugin on GitHub repo
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release' }
 
 " All of your Plugins must be added before the following line
 call plug#end()            " required
@@ -55,12 +54,9 @@ filetype plugin indent on    " required
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-
 
 " FZF key bindings
-nnoremap <C-f> :FZF<CR>
+nnoremap <C-x> :FZF<CR>
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-i': 'split',

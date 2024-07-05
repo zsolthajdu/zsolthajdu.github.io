@@ -46,7 +46,7 @@ This will generate a file called exampleConfig.h in the build directory that you
 #define example_VERSION_MAJOR @example_VERSION_MAJOR@
 #define example_VERSION_MINOR @example_VERSION_MINOR@
 ```
-The content of exampleConfig.h should lokk something like
+The content of exampleConfig.h should look something like
 ```
 #define example_VERSION_MAJOR 1
 #define example_VERSION_MINOR 0

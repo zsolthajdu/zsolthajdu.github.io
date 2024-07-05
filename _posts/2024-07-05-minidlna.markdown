@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MiniDLNA server config and maintenance"
-date:   2024-07-05 11:15:24 -0700
+date:   2024-07-05 10:15:24 -0700
 categories: media server minidlna dlna linux
 ---
 
@@ -11,7 +11,7 @@ Some notes about configuring and maintaining the [MiniDLNA](https://help.ubuntu.
 
 Config is at : /etc/minidlna.conf
 
-Field description at : https://help.ubuntu.com/community/MiniDLNA
+Field description at : (https://help.ubuntu.com/community/MiniDLNA)
 
 ## Maintenance
 
@@ -19,4 +19,4 @@ To rescan the contents of media directories:
 minidlnad -R
 
 To check current server status
-http://192.168.234.112:8200
+(http://192.168....:8200)

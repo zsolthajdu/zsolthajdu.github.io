@@ -11,12 +11,11 @@ Some notes about configuring and maintaining the [MiniDLNA](https://help.ubuntu.
 
 Config is at : /etc/minidlna.conf
 
-Field description at : (https://help.ubuntu.com/community/MiniDLNA)
+Field description at : https://help.ubuntu.com/community/MiniDLNA
 
 ## Maintenance
 
 To rescan the contents of media directories:
 minidlnad -R
 
-To check current server status
-(http://192.168....:8200)
+To check current server status http://192.168....:8200

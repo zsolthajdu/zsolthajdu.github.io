@@ -74,7 +74,10 @@ Feb 2001 - Jun 2004
     Optimized performance of GDI driver for Intel Pentium 3 processor in assembly language. Used MMX instructions to improve image processing speed.  
 
 ## Education
-
+### [Obuda University](https://uni-obuda.hu/en/), Budapest, Hungary
+BS in Computer Engineering  
 
 ## Patents
-
+* 2021 : [US11188276B1](https://patents.google.com/patent/US11188276B1)
+* 2022 : [US20220229715A1](https://patents.google.com/patent/US20220229715A1)
+* 2023 : [US11681483B2](https://patents.google.com/patent/US11681483B2)
